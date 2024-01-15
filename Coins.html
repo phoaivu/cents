@@ -14279,8 +14279,7 @@ a.anchor-link {
 <p>Naturally, the question is: which system is more efficient? Specifically, assume that you have an amount less than 100 cents to pay, and you still have the privilege to pay with coins, then what is the minimum number of coins you have to pay, in each system?</p>
 <p>Whoever added the quarter (25-cent) coin in the US could be pretty proud. When you have to pay 25 cents, but you don't have the exact 25-cent coin, in the US, you would need 3 coins: 10 + 10 + 5 = 25 cents. In Europe, you need only two: 20 + 5 = 25 cents.</p>
 <p>When you need to pay 75 cents though, American needs a minimum of two coins: 50 + 25 = 75 cents, while a European needs at least 3.</p>
-<p>How does this generalize? Over the whole spectrum of amounts from 1 to 99 cents, which one is more economically efficient? You might have notice that, sub-dollar, there are 5 types of coins in the US, while Europe has 6. How does this effect the minimum number of coins you need for a given amount?</p>
-<p>Although I'am unemployed, these findings are in no way politically biased. Unless the tools I am using, which include a compiler, a browser, and all the turtles all the way down, are politically biased, these findings are neutral.</p>
+<p>How does this generalize? Over the whole spectrum of amounts from 1 to 99 cents, which one is more economically efficient? You might have noticed that, sub-dollar, there are 5 types of coins in the US, while Europe has 6. How does this effect the minimum number of coins you need for a given amount?</p>
 <p>With a little piece of code, let's work this out. I may not be qualified for a Nobel for this, but I got your attention.</p>
 
 </div>
@@ -14288,7 +14287,7 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Problem-Statement">Problem Statement<a class="anchor-link" href="#Problem-Statement">&#182;</a></h2><p>The first question is: given an amount less than 100 cents, how many ways are there to pay, in each of the systems mentioned above?</p>
-<p>We will assume there is an indefinite amount of each coin type. This usually doesn't hold in practice for a specific consumer, but from the perspective of the people who design the system, it sounds reasonable.</p>
+<p>We will assume there is an indefinite amount of coins for each type. This usually doesn't hold in practice for a specific consumer, but from the perspective of the people who design the system, it sounds reasonable.</p>
 <p>Doing this is not difficult, here is a recursive implementation:</p>
 
 </div>
@@ -14591,9 +14590,9 @@ The most economical way is: [0, 1, 1, 0, 0, 1]
 
 
 
-<div id="978c79be-719d-47f0-9b18-d0f73278cd40" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="daad46be-d729-4783-a92c-adf3d00d82a5" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
+var element = document.getElementById('daad46be-d729-4783-a92c-adf3d00d82a5');
 
 (function(root) {
   function now() {
@@ -14955,9 +14954,9 @@ var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
 
 
 
-<div id="978c79be-719d-47f0-9b18-d0f73278cd40" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="daad46be-d729-4783-a92c-adf3d00d82a5" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
+var element = document.getElementById('daad46be-d729-4783-a92c-adf3d00d82a5');
 (function(root) {
   function embed_document(root) {
     
@@ -14997,7 +14996,7 @@ var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Minimum-number-of-coins-needed">Minimum number of coins needed<a class="anchor-link" href="#Minimum-number-of-coins-needed">&#182;</a></h2><p>Becase of the penny (1-cent), the maximum count is unsurprisingly always equal to the amount. Here we look at the minimum count.</p>
-<p>As I examine the following plot, Uncle Sam was whispering to my ears: "Hmm, not too bad!"</p>
+<p>As I examine the following plot, Uncle Sam was whispering to my ears: "Hmm, not too bad, I'd say."</p>
 <p>As a perk of being economical (making only 5 types of coins), the US system needs 7 coins to pay for 74 cents (<code>50 + 2*10 + 4*1</code>), while the EU system only needs 4 coins (<code>50 + 20 + 2 * 2</code>).</p>
 
 </div>
@@ -15048,9 +15047,9 @@ var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
 
 
 
-<div id="978c79be-719d-47f0-9b18-d0f73278cd40" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="daad46be-d729-4783-a92c-adf3d00d82a5" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
+var element = document.getElementById('daad46be-d729-4783-a92c-adf3d00d82a5');
 (function(root) {
   function embed_document(root) {
     
@@ -15188,9 +15187,9 @@ Less: 20 cases of total 20
 
 
 
-<div id="978c79be-719d-47f0-9b18-d0f73278cd40" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="daad46be-d729-4783-a92c-adf3d00d82a5" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
+var element = document.getElementById('daad46be-d729-4783-a92c-adf3d00d82a5');
 (function(root) {
   function embed_document(root) {
     
@@ -15236,18 +15235,19 @@ var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Extra">Extra<a class="anchor-link" href="#Extra">&#182;</a></h1><p>The next natural question is: what if we have <code>[1, 3, 7, 10, 30, 70]</code>-cent coins? What is the most optimal sequence of values?</p>
-<p>Mathematicans might come up with an elegant solutions. My guess is that with 6 types of coins, it wouldn't matter much. The point is to reduce the coin types while maintaining a reasonable efficiency.</p>
-<p>Albeit I am highly aware that this study came too late. If it was conducted back in the early 1900s, where people were buying loafs of bread with tiny coins, it would've been much more helpful.</p>
-<p>Regardless, the questions are still worth keeping you busy. So here are a few things to try out:</p>
+<p>Mathematicans might come up with an elegant solution. Economically speaking, the point is to reduce the coin types while maintaining a reasonable efficiency.</p>
+<p>So here are a few things to try out:</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">avg_min</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The average of `the minimum numbers of coins needed to pay` every amount from 1 to 99 cents</span>
+
+<span class="k">def</span> <span class="nf">avg_min</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
     <span class="n">mins</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">amount</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">):</span>
         <span class="n">solutions</span> <span class="o">=</span> <span class="p">[]</span>
@@ -15316,8 +15316,9 @@ var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Among the 6-coins options, <code>[6, 3, 1]</code> seems to have a chance to be better than <code>[5, 2, 1]</code>, which is the most common scheme. I would prefer <code>[7, 3, 1]</code> though, because for 6 cents, you may have 2 3-cent coins, which is economical enough.</p>
-<p>If your hypothetical kingdom opts for 5-coins scheme, maybe consider <code>[50, 30, 5, 3, 1]</code>.</p>
-<p>Let's keep in mind that these computations also work for the bills...</p>
+<p>If your hypothetical kingdom opts for 5-coins scheme, maybe consider <code>[50, 30, 5, 3, 1]</code>, which, in average, is more efficient than the US coin scale.</p>
+<p>For coins alone, I am fully aware that this study came too late. If it was conducted back in the early 1900s, where people were buying loafs of bread with tiny coins, it would've been much more helpful.</p>
+<p>But let's keep in mind that these findings also apply to the bills...</p>
 
 </div>
 </div>
@@ -15388,6 +15389,26 @@ var element = document.getElementById('978c79be-719d-47f0-9b18-d0f73278cd40');
 
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
     <span class="n">optimize</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Little-disclaimer">Little disclaimer<a class="anchor-link" href="#Little-disclaimer">&#182;</a></h2><p>Although I'm unemployed, these findings are in no way politically biased. Unless the tools I am using, which include a compiler, a browser, and all the turtles all the way down, are politically biased, these findings are neutral.</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
